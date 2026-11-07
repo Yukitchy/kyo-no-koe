@@ -1,0 +1,248 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="description" content="胸につけたマイクで録るだけ。写真つきの縦書きのページと、英語の言い直し案ができます。">
+<meta property="og:type" content="website"><meta property="og:site_name" content="今日の声"><meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="今日の声｜ツアーの会話が縦書きの読み物になる"><meta property="og:description" content="胸につけたマイクで録るだけ。写真つきの縦書きのページと、英語の言い直し案ができます。"><meta property="og:url" content="https://yukitchy.github.io/kyo-no-koe/c1/">
+<meta property="og:image" content="https://yukitchy.github.io/kyo-no-koe/img/c1.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="今日の声｜ツアーの会話が縦書きの読み物になる">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="今日の声｜ツアーの会話が縦書きの読み物になる"><meta name="twitter:description" content="胸につけたマイクで録るだけ。写真つきの縦書きのページと、英語の言い直し案ができます。"><meta name="twitter:image" content="https://yukitchy.github.io/kyo-no-koe/img/c1.png">
+<link rel="icon" href="https://yukitchy.github.io/kyo-no-koe/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="https://yukitchy.github.io/kyo-no-koe/apple-touch-icon.png">
+<title>今日の声｜ツアーの会話が縦書きの読み物になる</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Shippori+Mincho:wght@500;800&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+/* 構成: 方眼紙の地に、太い黒枠・ずらした影・オレンジの1色(もくもく会ページと同じ流儀)。縦480pxの1本スクロール */
+:root{--orange:#ff6a13;--ink:#151515;--paper:#fbfaf7;--grid:#e9e6df;--card:#fff;--sub:#5b5953;--line:#151515;--peach:#ffd9c2;--beige:#efe6d6;
+  --jp:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",sans-serif;--en:"Archivo","Zen Kaku Gothic New",sans-serif;--mincho:"Shippori Mincho","Hiragino Mincho ProN",serif}
+:root,:root[data-theme="dark"]{color-scheme:light}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px;color:var(--ink);font-family:var(--jp);font-weight:500;font-size:15px;line-height:1.8;overflow-x:hidden;padding-bottom:40px}
+h1,h2,h3,h4,p,dl,dd,ul{margin:0;padding:0}ul{list-style:none}
+.o{color:var(--orange)}
+.in{max-width:480px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.hd-wrap{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;padding:10px 12px 0}
+.bar{max-width:456px;margin:0 auto;background:var(--ink);color:#fff;border-radius:16px;display:flex;align-items:center;gap:8px;padding:9px 10px 9px 16px;border:2px solid var(--ink)}
+.bar b{flex:1;font-size:15px;font-weight:900;letter-spacing:.04em}
+.bar a{background:var(--orange);color:var(--ink);text-decoration:none;font-size:12px;font-weight:900;border-radius:999px;padding:7px 12px;line-height:1.2;white-space:nowrap}
+.hero{padding-top:28px}
+.eyebrow,.lab{display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:700;border-radius:6px;padding:3px 10px;line-height:1.7}
+.lab{font-size:13px;font-weight:900;border-radius:8px;padding:3px 12px;letter-spacing:.04em}
+h1{margin-top:14px;font-weight:900;line-height:1.28;letter-spacing:-.01em;font-size:clamp(32px,9.2vw,44px);word-break:keep-all}
+.oneliner{margin-top:22px;background:var(--ink);color:#fff;border-radius:16px;padding:16px 18px;font-size:clamp(19px,5.6vw,25px);font-weight:900;line-height:1.4;text-align:center}
+.oneliner .o{font-size:1.15em}
+.chips2{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
+.chips2 span{background:var(--card);border:2.5px solid var(--line);border-radius:999px;padding:2px 12px;font-size:13px;font-weight:900;line-height:1.7}
+.stage{margin-top:28px;padding:22px 0 18px;background:var(--orange);border:3px solid var(--ink);border-radius:26px;box-shadow:6px 6px 0 var(--line)}
+.note{font-size:12px;font-weight:700;text-align:center;margin-top:12px}
+.sec{padding:60px 0 0}
+h2{margin-top:12px;font-size:clamp(27px,7.6vw,35px);font-weight:900;line-height:1.3;letter-spacing:-.01em;word-break:keep-all}
+.lead{margin-top:12px;font-size:15px}
+.band{margin-top:64px;padding:56px 0 60px;background-color:var(--ink);color:#fff;background-image:linear-gradient(rgba(255,255,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.07) 1px,transparent 1px);background-size:24px 24px}
+.band .lab{background:var(--orange);color:var(--ink)}
+.cards{margin-top:28px;display:grid;gap:18px}
+.pcard{background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--orange);padding:14px 16px 16px}
+.tag{display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:900;border-radius:6px;padding:0 9px;line-height:1.8}
+.pcard h3{margin-top:8px;font-size:18px;font-weight:900;line-height:1.5}
+.pcard p{margin-top:4px;font-size:14px;line-height:1.75;color:var(--sub)}
+.white{background:var(--card);border-top:3px solid var(--line);border-bottom:3px solid var(--line);padding:56px 0 60px;margin-top:64px}
+.take{margin-top:26px;display:grid;gap:16px}
+.tk{border:3px solid var(--line);border-radius:20px;background:var(--paper);box-shadow:6px 6px 0 var(--line);padding:16px 18px 18px}
+.tk h3{font-size:19px;font-weight:900;line-height:1.4}
+.tk h3 .n{display:inline-block;width:26px;height:26px;border-radius:50%;background:var(--orange);color:var(--ink);font-family:var(--en);font-weight:900;font-size:14px;line-height:26px;text-align:center;margin-right:8px;vertical-align:1px}
+.tk ul{margin-top:8px;display:grid;gap:6px}
+.tk li{font-size:14px;line-height:1.7;color:var(--sub);padding-left:1em;text-indent:-1em}
+.tk li::before{content:"・"}
+.steps{margin-top:24px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;position:relative}
+.steps::before{content:"";position:absolute;left:8%;right:8%;top:50%;border-top:2.5px dotted var(--line);z-index:0}
+.st{position:relative;z-index:1;background:var(--card);border:2.5px solid var(--line);border-radius:14px;box-shadow:3px 3px 0 var(--line);padding:10px 2px;text-align:center;min-width:0;font-weight:900;font-size:clamp(13px,3.8vw,16px)}
+.st.last{background:var(--orange)}
+.flow{margin-top:22px;border:3px solid var(--line);border-radius:18px;background:var(--card);overflow:hidden}
+.flow li{padding:12px 16px;border-top:2px dashed var(--line)}.flow li:first-child{border-top:0}
+.flow b{font-size:15px;font-weight:900}.flow b i{font-style:normal;font-family:var(--en);color:var(--orange);margin-right:8px}
+.flow p{margin-top:2px;font-size:13.5px;line-height:1.7;color:var(--sub)}
+.tbl{margin-top:24px;border:3px solid var(--line);border-radius:20px;background:var(--card);box-shadow:6px 6px 0 var(--line);overflow:hidden}
+.tbl div{display:grid;grid-template-columns:88px 1fr;gap:12px;padding:13px 16px;border-top:2px solid var(--line);align-items:center}
+.tbl div:first-child{border-top:0}
+.tbl dt{font-size:13px;font-weight:900;color:var(--orange)}
+.tbl dd{font-size:15px;font-weight:700;min-width:0}
+.big{font-family:var(--en);font-weight:900;font-size:24px}
+.faq{margin-top:24px;display:grid;gap:12px}
+details{border:3px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden}
+summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:14px 16px;font-size:15px;font-weight:900;line-height:1.55}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";flex:none;width:14px;height:14px;margin-left:auto;background:linear-gradient(var(--ink),var(--ink)) center/100% 3px no-repeat,linear-gradient(var(--ink),var(--ink)) center/3px 100% no-repeat}
+details[open] summary{background:var(--peach)}
+details[open] summary::after{background:linear-gradient(var(--ink),var(--ink)) center/100% 3px no-repeat}
+details p{padding:12px 16px 16px;font-size:14.5px;line-height:1.8;border-top:2px solid var(--line)}
+.join{margin-top:64px;border:3px solid var(--ink);border-radius:26px;background:var(--orange);box-shadow:6px 6px 0 var(--line);padding:26px 18px 28px;text-align:center}
+.join h2{margin-top:0;font-size:clamp(26px,7.2vw,32px)}
+.join p{margin-top:10px;font-size:14.5px;font-weight:700;text-align:left}
+.join .go{display:block;margin-top:18px;background:var(--ink);color:#fff;border-radius:999px;padding:14px 16px;font-size:17px;font-weight:900;line-height:1.4}
+.host{margin-top:22px;text-align:center;font-size:12.5px;color:var(--sub)}
+/* 縦書きの見本（アプリ本体の見た目に合わせる） */
+.phone{border:1px solid var(--line);border-radius:22px;background:#fbfbfd;color:#1b2130;border:3px solid var(--ink);overflow:hidden;max-width:330px;margin-inline:auto;width:100%;display:flex;flex-direction:column}
+.phone .hd{display:flex;align-items:baseline;gap:8px;padding:12px 16px 8px;border-bottom:1px solid #d3d8e2;font-size:14px;font-weight:700;white-space:nowrap}
+.phone .hd i{font-style:normal;font-weight:500;color:#6a7283;font-size:12px}
+.phone .hd em{margin-left:auto;font:700 12px/1 ui-monospace,Menlo,monospace;color:#c24a36;font-style:normal}
+.phone .pg{height:360px;display:flex;flex-direction:row-reverse;align-items:flex-start;gap:12px;padding:16px 12px;overflow:hidden;font-family:var(--mincho)}
+.phone .col{writing-mode:vertical-rl;height:100%;flex:none;font-size:15px;line-height:1.75;letter-spacing:.07em;font-weight:500}
+.phone .col b{font-weight:800}
+.phone .tm{display:flex;flex-direction:column;align-items:center;gap:8px;flex:none;font-family:var(--gothic)}
+.phone .ob{border:1px solid #d3d8e2;border-radius:10px;padding:6px 12px;font-size:12px;letter-spacing:.12em;color:#6a7283;background:#fff}
+.phone .chip{display:flex;flex-direction:column;align-items:center;gap:3px;background:#1c2b4a;color:#fff;border-radius:10px;padding:9px 6px 8px;min-width:56px}
+.phone .chip svg{width:30px;height:30px}
+.phone .chip i{font:700 11px/1 ui-monospace,Menlo,monospace;font-style:normal;letter-spacing:.14em;opacity:.85}
+.phone .chip b{font:800 15px/1.1 ui-monospace,Menlo,monospace}
+.phone .dbt{color:#c24a36;font-weight:700;font-size:11px}
+.phone .ef{width:118px;flex:none;align-self:center;display:flex;flex-direction:column;gap:8px;font-family:var(--gothic);font-size:12px;line-height:1.6}
+.phone .ef>div{border-radius:12px;padding:10px 12px}
+.phone .e1{background:#fff;border:1px solid #d3d8e2;box-shadow:0 1px 2px rgba(20,30,60,.12),0 6px 18px rgba(20,30,60,.10)}
+.phone .e1 q{quotes:none;font:italic 13px/1.6 Georgia,"Times New Roman",serif}
+.phone .cap{display:flex;gap:6px;align-items:center;font-size:11px;color:#6a7283;margin-bottom:4px}
+.phone .dot{width:8px;height:8px;border-radius:50%;background:#ffe14d}
+.phone .f1{background:#fff3f0;border:1px solid #efb8ac;color:#3a1b16}
+.phone .f1 .lb{font-size:10.5px;letter-spacing:.14em;color:#b03a2a;font-weight:700}
+.phone .f1 s{color:#b03a2a;text-decoration-thickness:2px}
+.phone .f1 .g{color:#176b3a;font-weight:700}
+.phone .f1 small{display:block;opacity:.8;font-size:11px}
+.phone .tab{display:grid;grid-template-columns:repeat(5,1fr);padding:6px 6px 10px;border-top:1px solid #d3d8e2;background:#fff}
+.phone .tab span{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:#6a7283;font-family:var(--gothic)}
+.phone .tab span.on{color:#c24a36}
+.phone .tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.note{font-size:12px;color:var(--mute);text-align:center;margin-top:10px}
+
+
+.phone.toc .tp{padding:14px 14px 4px;height:360px;overflow:hidden}
+.phone.toc h4{font-family:var(--mincho);font-size:24px;font-weight:800;letter-spacing:.3em;color:#1c2b4a;margin-bottom:6px}
+.phone.toc .r{display:flex;align-items:center;gap:12px;padding:9px 4px;border-bottom:1px solid #d3d8e2}
+.phone.toc .t{display:flex;flex-direction:column;align-items:center;min-width:3.8em;color:#c24a36;font-family:ui-monospace,Menlo,monospace}
+.phone.toc .t i{font-style:normal;font-size:10px;font-weight:700;letter-spacing:.12em}
+.phone.toc .t b{font-size:16px;font-weight:800}
+.phone.toc .t small{font-size:10px;opacity:.7}
+.phone.toc .x{flex:1;min-width:0;font-size:14.5px;line-height:1.5;font-weight:700}
+.phone.toc .bd{font-size:10px;font-weight:700;color:#c24a36;border:1px solid #c24a36;border-radius:99px;padding:1px 6px;white-space:nowrap}
+.sub2{margin-top:14px;font-size:13.5px;color:var(--sub)}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+</style>
+
+<div class="hd-wrap"><div class="bar"><b>今日の声</b><a href="#sample">見本を見る</a></div></div>
+<main>
+<section class="hero in">
+  <p class="eyebrow">ガイド育成のための記録ツール</p>
+  <h1>ツアーの会話が<br>その日のうちに<br><span class="o">教材</span>になる</h1>
+  <p class="lead">胸につけたマイクで録るだけで、写真つきの縦書きの読み物ができます。日本語の要約と、英語の言い直し案が付きます。</p>
+  <p class="oneliner">ガイドの作業は<span class="o">マイク1つ</span>だけ</p>
+  <div class="chips2"><span>ツアーガイド向け</span><span>研修・育成向け</span><span>1日1本を自動作成</span></div>
+  <div class="stage" id="sample">
+    <div class="phone" aria-label="縦書き読み物の見本">
+    <div class="hd"><span>ゲーセンの案内</span><i>2026.11.06</i><em>12/135</em></div>
+    <div class="pg">
+      <div class="tm"><span class="ob">原文</span><div class="chip"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16" y1="16" x2="21.4" y2="11.6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><line x1="16" y1="16" x2="5.5" y2="19.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="16" cy="16" r="1.5" fill="currentColor"/></svg><i>PM</i><b>1:42</b></div><span class="dbt">要確認</span></div>
+      <div class="col">息子が<b>「この景品は、日本でしか取れないの？」</b>と聞き、ユウキが店ごとに値段が違う理由を説明する。</div>
+      <div class="ef">
+        <div class="e1"><div class="cap"><span class="dot"></span>客の声</div><q>Can I get this only in Japan?</q></div>
+        <div class="f1"><div class="lb">朱書き</div><s>It is not sell in shop.</s><br><span class="g">They aren't sold in stores.</span><small>受け身の形。売り物ではない、の言い方</small></div>
+      </div>
+      </div>
+    </div>
+    <div class="tab"><span class="on"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>目次</span><span class=""><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg>一覧</span><span class=""><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="1.5"/><path d="M21 16l-5-5-8 8"/></svg>写真</span><span class=""><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/></svg>原文</span><span class=""><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>設定</span></div>
+  </div>
+  
+    <p class="note">架空の会話のサンプル。実際のページと同じ見た目です</p>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="four-h"><div class="in">
+  <span class="lab">できるもの</span>
+  <h2 id="four-h">1回のツアーで作られる4つ</h2>
+  <div class="cards">
+    <article class="pcard"><span class="tag">目次</span><h3>時刻と短い題の一覧</h3><p>2時間半の録音が約20行になります。行をタップすると、その場面へ飛びます。</p></article>
+    <article class="pcard"><span class="tag">要約</span><h3>場面ごとの日本語要約</h3><p>誰が何を話したかを、固有名詞や数字を残して2〜3文にします。聞き取りが怪しい所は、そう書いてあります。</p></article>
+    <article class="pcard"><span class="tag">朱書き</span><h3>英語の言い直し案</h3><p>ガイドが実際に言った英語から、直す価値のある所だけを拾い、自然な言い方と理由を添えます。1場面に最大3つです。</p></article>
+    <article class="pcard"><span class="tag">マーク</span><h3>客の本音を太字に</h3><p>感想、話のタネ、約束、次に活かすことを太字で示します。読み返す時に、そこだけ拾えます。</p></article>
+  </div>
+</div></section>
+
+<section class="white"><div class="in">
+  <span class="lab">目次の見本</span>
+  <h2>2時間半を20行にした目次</h2>
+  <p class="lead">時刻と、そのとき話したことの題だけが並びます。研修で「この場面を見て」と言うとき、その行を開けば足ります。</p>
+  <div class="stage" style="margin-top:22px"><div class="phone toc" aria-label="目次の見本">
+      <div class="hd"><span>デンマーク親子とのアキバツアー</span><em>2/135</em></div>
+      <div class="tp">
+        <h4>目次</h4>
+        <div class="r"><span class="t"><i>AM</i><b>11:02</b><small>〜11:31</small></span><span class="x">買い物の相談と好きなキャラクターの話</span></div>
+        <div class="r"><span class="t"><i>AM</i><b>11:31</b><small>〜11:50</small></span><span class="x">日本の電車の静けさとサービス文化</span><span class="bd">要確認</span></div>
+        <div class="r"><span class="t"><i>PM</i><b>12:10</b><small>〜12:46</small></span><span class="x">ゲームやカードの中古価格と転売の話</span></div>
+        <div class="r"><span class="t"><i>PM</i><b>1:20</b><small>〜1:58</small></span><span class="x">リズムゲームの遊び方を教える</span></div>
+        <div class="r"><span class="t"><i>PM</i><b>2:05</b><small>〜2:20</small></span><span class="x">カードの状態表示を確かめる</span></div>
+      </div>
+      <div class="tab"><span class="on"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>目次</span><span class=""><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg>一覧</span><span class=""><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="1.5"/><path d="M21 16l-5-5-8 8"/></svg>写真</span><span class=""><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/></svg>原文</span><span class=""><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>設定</span></div>
+  </div>
+  
+    <p class="note">写真は撮影時刻で、話していた場面に自動で入ります</p>
+  </div>
+</div></section>
+
+<section class="sec in">
+  <span class="lab">使う場面</span>
+  <h2>育成と発信での使い方</h2>
+  <div class="take">
+    <div class="tk"><h3><span class="n">1</span>ガイドの教育に</h3><ul>
+      <li>新人が先輩の1日を、同行せずに読めます。どこで何を聞かれ、どう答えたかが残ります。</li>
+      <li>自分の英語の直しが毎回たまります。同じ言い間違いが続くかも見えます。</li>
+      <li>ゲストが喜んだ場面と困った場面が、研修の実例になります。</li>
+      <li>ガイドごとに1日1本ずつたまり、チームの知見の置き場になります。</li></ul></div>
+    <div class="tk"><h3><span class="n">2</span>研修と情報発信に</h3><ul>
+      <li>研修で見せる実例を、目次から開いてすぐ出せます。</li>
+      <li>客の本音の太字は、そのまま発信のネタにできます。</li>
+      <li>翌朝のお礼やフォローの下書きに使える言葉が、会話から拾えます。</li>
+      <li>見せる範囲は、自分だけ・ゲストと共有・チームの3段階で切り替えます。</li></ul></div>
+  </div>
+</section>
+
+<section class="sec in">
+  <span class="lab">仕組み</span>
+  <h2>録ってから読むまで</h2>
+  <div class="steps"><div class="st">録る</div><div class="st">文字に</div><div class="st">まとめる</div><div class="st last">読む</div></div>
+  <ul class="flow">
+    <li><b><i>1</i>録る</b><p>胸につけたマイクで、ツアー中の会話を録音します。</p></li>
+    <li><b><i>2</i>文字にする</b><p>音声を英語のまま文字起こしします。</p></li>
+    <li><b><i>3</i>まとめる</b><p>AIが場面に区切り、要約・言い直し・マーク・目次を作ります。</p></li>
+    <li><b><i>4</i>読む</b><p>同じ日の写真と合わせて、スマホで読める縦書きのページになります。</p></li>
+  </ul>
+</section>
+
+<section class="sec in">
+  <span class="lab">実績</span>
+  <h2>10/30から11/6の10本</h2>
+  <dl class="tbl">
+    <div><dt>録音</dt><dd><span class="big">10本</span> 作成済み</dd></div>
+    <div><dt>1本の長さ</dt><dd><span class="big">144分</span> 11/6の1本</dd></div>
+    <div><dt>目次</dt><dd><span class="big">57場面 → 20行</span></dd></div>
+    <div><dt>写真</dt><dd><span class="big">31枚</span> 自動で場面に入る</dd></div>
+  </dl>
+</section>
+
+<section class="sec in">
+  <span class="lab">いまの限界</span>
+  <h2>できないことと注意点</h2>
+  <div class="faq">
+    <details><summary>文字起こしの聞き間違いは？</summary><p>出ます。固有名詞や数字で怪しい所には「要確認」の印を付けています。確認は人がします。</p></details>
+    <details><summary>誰が話したかは分かりますか</summary><p>まだ区別できません。要約の中の「ユウキが」は、文脈からの推定です。</p></details>
+    <details><summary>英語の直しは正しいですか</summary><p>AIの提案です。そのまま正解とは言えません。研修では、ガイド本人と一緒に見る前提です。</p></details>
+    <details><summary>ゲストの会話は共有されますか</summary><p>ゲストの会話を含むページは非公開が基本です。共有するときは、見せる範囲を決めてからにします。</p></details>
+  </div>
+</section>
+
+<section class="in"><div class="join">
+  <h2>最初の1本を一緒に作る</h2>
+  <p>しんごさんの現場の録音を1本お預かりして、同じ形のページを作ります。目次を見て、研修に使えそうかを判断してください。ゲストの会話を預かる場合の範囲は、先に決めます。</p>
+  <p>よしさんには、研修で見せる実例として、先に完成したページをお見せします。</p>
+  <span class="go">ユウキに声をかける</span>
+</div>
+<p class="host">主催 Yuuki（アニメ×インバウンドツアー）。この紹介ページの会話は、すべて架空のサンプルです。</p></section>
+</main>
+
+</html>
